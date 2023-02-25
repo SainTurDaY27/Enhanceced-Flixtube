@@ -1,6 +1,5 @@
-# Chapter-9
-
-Code and examples for Chapter 9 of [Bootstrapping Microservices](https://www.bootstrapping-microservices.com).
+# Enhanceced-Flixtube
+From Chapter9 - Bootstraping Microservices textbook
 
 The chapter 9 code repository contains the complete working example application: FlixTube. This is what we have been building up to all though the book. 
 
