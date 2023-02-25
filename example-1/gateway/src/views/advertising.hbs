@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <title>FlixTube: Advertising</title>
+
+        <link rel="stylesheet" href="css/tailwind.min.css">
+        <link rel="stylesheet" href="css/app.css">
+    </head>
+    <body>
+        <div class="flex flex-col">
+            <div class="border-b-2 bg-gray-100">
+                <div class="nav flex flex-row items-center mt-1 p-2">
+                    <div class="text-xl font-bold">
+                        FlixTube
+                    </div>
+                    <div class="ml-16">
+                        <a href="/">Videos</a>
+                    </div>
+                    <div class="ml-4">
+                        <a href="/upload">Upload</a>
+                    </div>
+                    <div class="ml-4">
+                        <a href="/history">History</a>
+                    </div>
+                    <br><br/>
+                    <div class="ml-4 border-b-2 border-blue-600">
+                        <a href="/advertising">Advertising</a>
+                    </div>
+                    <div class="text-xl font-bold">
+                        <a>[{{advertising.name}}]</a>
+                        <a>Link here: {{advertising.link}}</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="m-4">
+	            <h1>Advertising</h1>
+                <div class="m-4">
+                    <n>Product name: {{advertising.name}}</n>
+                    <br><br/>
+                    <n>Product link: {{advertising.link}}</n>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
